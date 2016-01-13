@@ -1,0 +1,107 @@
+
+/*---TYPOGRAPHY---*/
+
+body { 
+    font-family: 'Roboto Slab', serif;
+}
+
+#title {
+    text-align: center;
+    position: absolute;
+      margin-left: -110px;
+    margin-top: -110px;
+    left: 45%;
+    top: 80%;
+
+        
+}
+
+/*--- STRUCTURE---*/
+
+.logo {
+    max-width: 300px;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -150px;
+    left: 50%;
+    top: 60%;
+}
+
+.full_width {
+    height: 100%;
+    border: 1px solid grey;
+}
+
+.content {
+    margin: auto; /* this will center horizontally */
+    max-width: 30em;
+    padding: 1em 1em;
+}
+
+#header {
+    background-image: url(Images/vintage_pattern.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: -4; position:relative
+}
+
+#first {
+background-image: url(Images/moustache_pattern.png);
+background-attachment: fixed;
+ transition: 0s linear;
+    transition-property: background-position;
+}
+
+#second {
+    background-image: url(Images/moustache_pattern_red.png);
+    background-attachment: fixed;
+     transition: 0s linear;
+    transition-property: background-position;
+}
+
+#third {
+    background-image: url(Images/mustache_collage.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+     transition: 0s linear;
+    transition-property: background-position;      
+}
+
+.circle{
+    width: 450px;
+	height: 450px;
+	background: white;
+	-moz-border-radius: 225px;
+	-webkit-border-radius: 225px;
+	border-radius: 225px;
+    position: absolute;
+    margin-left: -225px;
+    margin-top: -225px;
+    left: 50%;
+    top: 50%;
+    z-index: -1; position:relative;
+}
+
+#element1 {
+  position: relative;
+}
+
+#element2 {
+  position: absolute;  
+}
+
+#element3 {
+position: absolute;
+top: 450px;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#content1 {
+    background-color: white;
+    backface-visibility: visible;
+}
