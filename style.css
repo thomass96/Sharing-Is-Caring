@@ -30,38 +30,41 @@ top: 38%;
 .full_width {
     height: 100%;
     border: 1px solid grey;
+    position: relative;
 }
 
 .content {
-    margin: auto; /* this will center horizontally */
-    max-width: 30em;
-    padding: 1em 1em;
+
+	margin: 2em auto;
+	max-width: 40em;
+	padding: 0 1em;
+    position: relative;
 }
 
 #header {
-    background-image: url(Images/UK FLOODS/Floods-Aberdeen.jpg);
-    background-repeat: repeat;
+    background-color: 
     background-attachment: fixed;
     z-index: -4; position:relative
         
 }
 
 #first {
-background-image: url(Images/moustache_pattern.png);
+background-image: url(http://energydesk.greenpeace.org/wp-content/uploads/2016/01/GettyImages-502987366.jpg);
+background-size: cover;
 background-attachment: fixed;
  transition: 0s linear;
     transition-property: background-position;
 }
 
 #second {
-    background-image: url(Images/moustache_pattern_red.png);
+    background-image: url();
     background-attachment: fixed;
      transition: 0s linear;
     transition-property: background-position;
 }
 
 #third {
-    background-image: url(Images/mustache_collage.jpg);
+    background-image: url();
     background-repeat: repeat;
     background-attachment: fixed;
      transition: 0s linear;
@@ -102,11 +105,25 @@ a.fill-div {
     width: 100%;
 }
 
-#content1 {
-    background-color: white;
-    backface-visibility: visible;
+center {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 30em;
+height: 13em;
+margin: -6.5em 0 0 -15em;
+
 }
 
+#mc_embed_signup {
+    background-color: rebeccapurple;
+    position: absolute;
+top: 50%;
+left: 50%;
+width: 30em;
+height: 13em;
+margin: -6.5em 0 0 -15em;
+}
 
 
 
