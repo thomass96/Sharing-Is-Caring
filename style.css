@@ -11,9 +11,14 @@ body {
       margin-left: -110px;
     margin-top: -110px;
     left: 40%;
-    top: 80%;
+    top: 80%;    
+}
 
-        
+#quote1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2em;
+    padding: 20px;
 }
 
 /*--- STRUCTURE---*/
