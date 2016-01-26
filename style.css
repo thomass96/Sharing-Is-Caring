@@ -34,7 +34,7 @@ top: 38%;
 
 .full_width {
     height: 100%;
-    border: 1px solid grey;
+    border: 0.05px solid grey;
     position: relative;
 }
 
@@ -48,17 +48,17 @@ top: 38%;
 
 #header {
     
-    background-image: url(Images/UK-FLOODS/Clouds-Header.png), url(Images/UK-FLOODS/rolling-hills-landscape.png);
+    background-image: url(Images/UK-FLOODS/rolling-hills-landscape.png), url(Images/UK-Floods/Clouds-Header.png);
     background-repeat: repeat-x;
-    background-size: 100%, 80%;
-    background-position: top, bottom;
-    background-attachment: fixed, scroll; 
+    background-size: 80%, 100%;
+    background-position: bottom, top;
+    background-attachment: scroll, fixed; 
     z-index: -4; position:relative
         
 }
 
 #first {
-background-image: url(http://energydesk.greenpeace.org/wp-content/uploads/2016/01/GettyImages-502987366.jpg);
+background-color: darkslategrey;
 background-size: cover;
 background-attachment: fixed;
  transition: 0s linear;
