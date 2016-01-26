@@ -48,7 +48,7 @@ top: 38%;
 
 #header {
     
-    background-image: url(Images/UK-FLOODS/rolling-hills-landscape.png), url(Images/UK-Floods/Clouds-Header.png);
+    background-image: url(Images/UK-FLOODS/rolling-hills-landscape.png), url(https://raw.githubusercontent.com/thomass96/Sharing-Is-Caring/gh-pages/Images/UK-FLOODS/Clouds-Header.png);
     background-repeat: repeat-x;
     background-size: 80%, 100%;
     background-position: bottom, top;
