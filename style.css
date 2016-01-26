@@ -47,8 +47,12 @@ top: 38%;
 }
 
 #header {
-    background-color: 
-    background-attachment: fixed;
+    
+    background-image: url(Images/UK-FLOODS/rolling-hills-landscape.png), url(Images/UK-Floods/clouds.png);
+    background-repeat: repeat-x;
+    background-size: 80%, 100%;
+    background-position: bottom, top;
+    background-attachment: scroll, fixed; 
     z-index: -4; position:relative
         
 }
