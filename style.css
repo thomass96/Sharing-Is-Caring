@@ -34,7 +34,7 @@ top: 38%;
 
 .full_width {
     height: 100%;
-    border: 0.05px solid grey;
+    border: 1px solid grey;
     position: relative;
 }
 
@@ -58,7 +58,7 @@ top: 38%;
 }
 
 #first {
-background-color: darkslategrey;
+background-image: url(http://energydesk.greenpeace.org/wp-content/uploads/2016/01/GettyImages-502987366.jpg);
 background-size: cover;
 background-attachment: fixed;
  transition: 0s linear;
