@@ -4,6 +4,11 @@ html,body {
 	height: 100vh;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 #title {
 	text-align: center;
 	position: absolute;
@@ -42,6 +47,35 @@ html,body {
 	position: relative;
 }
 
+/* FLEX DISPLAYS */
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
 #header {
 	background-image: url(Images/UK-FLOODS/rolling-hills-landscape.png),url(https://raw.githubusercontent.com/thomass96/Sharing-Is-Caring/gh-pages/Images/UK-FLOODS/Clouds-Header.png);
 	background-repeat: repeat-x;
@@ -51,14 +85,11 @@ html,body {
 	z-index: -4;
 	position: relative;
 	padding-top: .001%;
+    
 }
 
 #first {
 	background-color: #588527;
-	background-size: cover;
-	background-attachment: fixed;
-	transition: 0 linear;
-	transition-property: background-position;
 }
 
 #second {
@@ -129,3 +160,18 @@ center {
 	height: 13em;
 	margin: -6.5em 0 0 -15em;
 }
+
+content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-first {
+    padding: 2%;
+
+}
+
+p {
+    font-size: 3.2vmin;
+}
+
