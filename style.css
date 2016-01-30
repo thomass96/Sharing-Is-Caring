@@ -35,9 +35,14 @@ html,body {
 	top: 38%;
 }
 
-.full_width {
+.full_width_top {
 	position: relative;
 	height: 100vh;
+}
+
+.full_width {
+	position: relative;
+	height: 300px;
 }
 
 .content {
@@ -88,15 +93,14 @@ html,body {
     
 }
 
+/*^^^ FLEX ENDS ^^^*/
+
 #first {
 	background-color: #588527;
 }
 
 #second {
-	background-image: url();
-	background-attachment: fixed;
-	transition: 0 linear;
-	transition-property: background-position;
+	
 }
 
 #third {
@@ -173,5 +177,17 @@ content-center {
 
 p {
     font-size: 3.2vmin;
+}
+
+/* SECTION TWO CSS */
+
+.dark-sky { 
+ padding-top: 250px;
+position: fixed;
+}/* text appearing in section two - set to middle of the dark sky */
+
+.night-sky {
+    background-color: rgb(138,203,238);
+    min-height: 2000px;
 }
 
