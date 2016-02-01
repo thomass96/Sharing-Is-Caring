@@ -102,6 +102,7 @@ html,body {
     background-attachment: scroll;
     background-repeat: repeat-x;
     background-size: 15%;
+    padding-bottom: 2%;
 }
 
 #second {
