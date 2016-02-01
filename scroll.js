@@ -2,7 +2,7 @@
     //** notice we are including jquery and the color plugin at 
     //** http://code.jquery.com/color/jquery.color-2.1.0.js
     
-    var scroll_pos = 0;
+    var scroll_pos = 3000;
     var animation_begin_pos = 0; //where you want the animation to begin
     var animation_end_pos = 2000; //where you want the animation to stop
     var beginning_color = new $.Color( 'rgb(138,203,238)' ); //we can set this here, but it'd probably be better to get it from the CSS; for the example we're setting it here.

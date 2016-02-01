@@ -97,6 +97,11 @@ html,body {
 
 #first {
 	background-color: #588527;
+    background-image: url(Images/UK-FLOODS/picket-fence.png);
+    background-position: bottom;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-size: 15%;
 }
 
 #second {
