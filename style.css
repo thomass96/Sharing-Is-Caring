@@ -90,7 +90,7 @@ html,body {
 	z-index: -4;
 	position: relative;
 	padding-top: .001%;
-    
+    height: 100vh;
 }
 
 /*^^^ FLEX ENDS ^^^*/
@@ -103,6 +103,7 @@ html,body {
     background-repeat: repeat-x;
     background-size: 15%;
     padding-bottom: 2%;
+    
 }
 
 #second {
@@ -196,10 +197,10 @@ position: fixed;
 .night-sky {
     background-color: rgb(138,203,238);
     min-height: 2000px;
-    background-image: url(Images/UK-FLOODS/Landscape-power-flood.png);
-    background-attachment: fixed;
-    background-position: bottom left;
-    background-size: 100%;
+    background-image: url(Images/UK-FLOODS/Landscape-power-flood.png), url(https://raw.githubusercontent.com/thomass96/Sharing-Is-Caring/gh-pages/Images/UK-FLOODS/Clouds-Header.png);
+    background-attachment: fixed, fixed;
+    background-position: bottom left, top;
+    background-size: 100%, 80%;
     background-repeat: repeat-x;
     
 }
@@ -209,5 +210,37 @@ position: fixed;
     padding: 20%;
     text-align: center;
     color: #fff;
+}
+
+.text-behind {
+    padding: 2%;
+
+}
+
+
+.together {
+    
+padding: 0;
+display: flex;
+justify-content: center;
+font-size: 8vmin;
+color: #fff
+}
+
+#top {
+    padding-top: 20%
+    
+}
+
+#bottom {
+    padding-bottom: 20%;
+}
+
+#important {
+    font-size: 20vmin;
+    color: yellow;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
