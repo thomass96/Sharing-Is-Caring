@@ -12,4 +12,5 @@ From the beginning of my designs, I chose to make my website very animated, inte
 ###My End Result Goal ;###
 I want those that read my whole website to then sign a petition that I will create, for the UK Government to discuss in Parliment, the need to increase the funding on UK Flood Prevention and Rescue, after the following cuts have left those affected in awful conditions, and to spend the tax payers money on the UK first, as opposed to paying out to other struggling countries or towards bombing Syria.
 
-#[www.thomass96.github.io/Sharing-Is-Caring](http://www.thomass96.github.io/Sharing-Is-Caring)
+#[thomass96.github.io/Sharing-Is-Caring](http://thomass96.github.io/Sharing-Is-Caring)
+#[Blog](http://www.thomasmurphy.com.gridhosted.co.uk/category/web14103/web-development-workshop)
