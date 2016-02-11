@@ -239,7 +239,8 @@ p {
 
 /* WATER */
 .app {
-	background-color: #393f44;
+	background-color: rgb(57,63,68);
+    padding-bottom: 20%;
 }
 
 @keyframes spin {
