@@ -4,9 +4,9 @@ html,body {
 	height: 100vh;
 }
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
 
 #title {
@@ -54,31 +54,31 @@ html,body {
 
 /* FLEX DISPLAYS */
 .flex-container {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .flex-item {
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
 }
 
 .top {
-    align-items: flex-start;
+	align-items: flex-start;
 }
 
 .bottom {
-    align-items: flex-end;
+	align-items: flex-end;
 }
 
 #header {
@@ -90,27 +90,23 @@ html,body {
 	z-index: -4;
 	position: relative;
 	padding-top: .001%;
-    height: 100vh;
-    
+	height: 100vh;
 }
 
 /*^^^ FLEX ENDS ^^^*/
-
 #first {
 	background-color: #588527;
-    background-image: url(Images/UK-FLOODS/picket-fence.png);
-    background-position: bottom;
-    background-attachment: scroll;
-    background-repeat: repeat-x;
-    background-size: 15%;
-    padding-bottom: 2%;
-    height: 70vh;
-    
+	background-image: url(Images/UK-FLOODS/picket-fence.png);
+	background-position: bottom;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-size: 15%;
+	padding-bottom: 2%;
+	height: 70vh;
 }
 
 #second {
-    padding-top: 40%;
-	
+	padding-top: 40%;
 }
 
 #third {
@@ -176,114 +172,102 @@ center {
 }
 
 content-center {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .text-first {
-    padding: 2%;
-
+	padding: 2%;
 }
 
 p {
-    font-size: 3.2vmin;
+	font-size: 3.2vmin;
 }
 
 /* SECTION TWO CSS */
+.dark-sky {
+	padding-top: 250px;
+	position: fixed;
+}
 
-.dark-sky { 
- padding-top: 250px;
-position: fixed;
-}/* text appearing in section two - set to middle of the dark sky */
-
+/* text appearing in section two - set to middle of the dark sky */
 .night-sky {
-    background-color: rgb(138,203,238);
-    min-height: 2000px;
-    background-image: url(Images/UK-FLOODS/Landscape-power-flood.png), url(https://raw.githubusercontent.com/thomass96/Sharing-Is-Caring/gh-pages/Images/UK-FLOODS/Clouds-Header.png);
-    background-attachment: fixed, fixed;
-    background-position: bottom left, top;
-    background-size: 100%, 80%;
-    background-repeat: repeat-x;
-    
+	background-color: #8acbee;
+	min-height: 2000px;
+	background-image: url(Images/UK-FLOODS/Landscape-power-flood.png),url(https://raw.githubusercontent.com/thomass96/Sharing-Is-Caring/gh-pages/Images/UK-FLOODS/Clouds-Header.png);
+	background-attachment: fixed,fixed;
+	background-position: bottom left,top;
+	background-size: 100%,80%;
+	background-repeat: repeat-x;
 }
 
 .section2 {
-    font-size: 8vmin;
-    padding: 20%;
-    text-align: center;
-    color: #fff;
+	font-size: 8vmin;
+	padding: 20%;
+	text-align: center;
+	color: #fff;
 }
 
 .text-behind {
-    padding: 2%;
-    font-size: 8vmin;
-
+	padding: 2%;
+	font-size: 8vmin;
 }
 
-
 .together {
-    
-padding: 0;
-display: flex;
-justify-content: center;
-font-size: 8vmin;
-color: #fff
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-size: 8vmin;
+	color: #fff;
 }
 
 #top {
-    padding-top: 20%
-    
+	padding-top: 20%;
 }
 
 #bottom {
-    padding-bottom: 20%;
+	padding-bottom: 20%;
 }
 
 #important {
-    font-size: 20vmin;
-    color: yellow;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+	font-size: 20vmin;
+	color: #ff0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 }
 
 /* WATER */
-
 .app {
-    background-color: rgb(57,63,68);
+	background-color: #393f44;
 }
 
-@keyframes spin{
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
 
-  to {
-    transform: rotate(360deg);
-  }
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .water {
-      position: absolute;
-      background-color:#00E8FF;
-      z-index: 1;
-      width: 800px;
-      height: 800px;
-  
-
-      transform: translateZ(0);
-      -webkit-transform: translateZ(0);
-
-      transition: all 0.5s ease !important;
-      -webkit-transition: all 0.5s ease !important;
-
-      top: 605%;
-      left: -50%;
-      border: 1px solid transparent;
-      border-radius: 40% !important;
-       
-  animation-name: spin;
-       animation-duration: 8s;
-       animation-iteration-count: infinite;
-       animation-timing-function: linear;
-    }
+	position: absolute;
+	background-color: #00E8FF;
+	z-index: 1;
+	width: 800px;
+	height: 800px;
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transition: all .5s ease !important;
+	-webkit-transition: all .5s ease !important;
+	top: 605%;
+	left: -50%;
+	border: 1px solid transparent;
+	border-radius: 40% !important;
+	animation-name: spin;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
