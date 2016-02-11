@@ -104,6 +104,7 @@ html,body {
     background-repeat: repeat-x;
     background-size: 15%;
     padding-bottom: 2%;
+    height: 70vh;
     
 }
 
@@ -215,6 +216,7 @@ position: fixed;
 
 .text-behind {
     padding: 2%;
+    font-size: 8vmin;
 
 }
 
@@ -245,3 +247,39 @@ color: #fff
     justify-content: center;
 }
 
+/* WATER */
+
+@keyframes spin{
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.water {
+      position: absolute;
+      background-color:#00E8FF;
+      z-index: 1;
+      width: 800px;
+      height: 800px;
+  
+
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
+
+      transition: all 0.5s ease !important;
+      -webkit-transition: all 0.5s ease !important;
+
+      top: 600%;
+      left: -50%;
+      border: 1px solid transparent;
+      border-radius: 40% !important;
+       
+  animation-name: spin;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+    }
