@@ -210,7 +210,7 @@ p {
 
 .text-behind {
 	padding: 2%;
-	font-size: 8vmin;
+	font-size: 7vmin;
 }
 
 .together {
@@ -239,7 +239,7 @@ p {
 
 /* WATER */
 .app {
-	background-color: rgb(57,63,68);
+	background-color: transparent;
     padding-bottom: 20%;
 }
 
@@ -254,11 +254,11 @@ p {
 }
 
 .water {
+    z-index: 3;
 	position: absolute;
 	background-color: #00E8FF;
-	z-index: 1;
 	width: 800px;
-	height: 800px;
+	height: 80px;
 	transform: translateZ(0);
 	-webkit-transform: translateZ(0);
 	transition: all .5s ease !important;
@@ -271,4 +271,19 @@ p {
 	animation-duration: 8s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+#water-text-top {
+    padding-top: 10%;
+}
+
+.water-text {
+    z-index: 4;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 7vmin;
 }

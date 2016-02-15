@@ -4,7 +4,7 @@
     
     var scroll_pos = 3000;
     var animation_begin_pos = 0; //where you want the animation to begin
-    var animation_end_pos = 2000; //where you want the animation to stop
+    var animation_end_pos = 5000; //where you want the animation to stop
     var beginning_color = new $.Color( 'rgb(138,203,238)' ); //we can set this here, but it'd probably be better to get it from the CSS; for the example we're setting it here.
     var ending_color = new $.Color( 'rgb(57,63,68)' ); ;//what color we want to use in the end
     $(document).scroll(function() {
