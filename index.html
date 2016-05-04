@@ -31,23 +31,28 @@
 	<section class="full_width" id="first">
 		<div class="flex-container top">
 			<div class="flex-item top behind">
-				<p class="text-behind">THE UK HAS HAD THE 5 WETTEST YEARS SINCE 2000.</p>
+				<p class="text-behind">WHAT IF I TOLD YOU</p>
 
 
-				<p class="text-behind">YET, EA’S FLOOD DEFENCE FUNDING HAS DROPPED BY</p>
+				<p class="text-behind">YOU COULD BE 1 IN 6 AT RISK OF  </p>
 
 
-				<p class="text-behind">14%</p>
+				<p class="text-behind">FLOODING FROM COASTAL, RIVER OR SURFACE WATER</p>
+                
+                <p class="text-behind">?</p>
 			</div>
 		</div>
 	</section>
 
 
 	<section class="night-sky" id="second">
+        
+        <p class="text-first section2">WHAT IF I ALSO TOLD YOU</p>
+        
 		<p class="text-first section2">TENS OF THOUSANDS</p>
 
 
-		<p class="text-first section2">OF PEOPLE IN LANCASTER</p>
+		<p class="text-first section2">OF CHILDREN IN LANCASTER</p>
 
 
 		<p class="text-first together" id="top">WERE LEFT</p>
@@ -66,15 +71,47 @@
 
         
         <div class="app">
-            <div class="water" style="width: 3328px; height: 3328px;">
-            </div>
-            <p class="water-text" id="water-text-top">THE</p>
+            <script type="text/javascript">(function() {
+
+  var viewWidth, xPos;
+
+  viewWidth = -1 * $(window).width();
+  xPos = 0;
+
+  $(document).on('scroll', function() {
+
+    if (xPos > viewWidth) {
+      xPos -= 40;
+    } else {
+      xPos = 0;
+    }
+
+    $('#svg').css('left', xPos);
+  });
+
+}());
+
+</script>
+            <div class="svg-container">
+  <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="8 0 2048 25" enable-background="new 8 0 2048 25" xml:space="preserve"preserveAspectRatio="none">
+  <path fill="#008571" d="M1833.1,1.6c-146.3,0-360.7,22.4-527,22.4s-274-10.6-274-10.6S955.4,1.6,809.1,1.6S448.4,24,282,24
+    S8,13.4,8,13.4V25h1024h1024V13.4C2056,13.4,1979.4,1.6,1833.1,1.6z"/>
+  </svg>
+</div>
+<div class="bottom"><p class="water-text" id="water-text-top">WITH THE</p>
             <img src="Images/UK-FLOODS/teddy.png" class="teddy-bear">  
             <p class="water-text"> WORST OF THE FLOODING</p>
-            <p class="water-text"> OCCURRED ON</p>
-            <p class="water-text"> CHRISTMAS AND BOXIN DAY</p>
-		</div>
-        
+            <p class="water-text"> OCCURRING ON</p>
+            <p class="water-text"> CHRISTMAS AND BOXING DAY</p></div>
+        </div>
+    
+
 	</section>
+    
+    <section class="full_width" id="fourth">
+    </section>
+   
+    
 </body>
 </html>

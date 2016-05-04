@@ -103,19 +103,16 @@ html,body {
 	background-repeat: repeat-x;
 	background-size: 15%;
 	padding-bottom: 2%;
-	height: 70vh;
+	height: 80vh;
 }
 
 #second {
 	padding-top: 40%;
 }
 
-#third {
-	background-image: url();
-	background-repeat: repeat;
-	background-attachment: fixed;
-	transition: 0 linear;
-	transition-property: background-position;
+#fourth {
+    z-index: 2;
+	
 }
 
 .circle {
@@ -239,41 +236,26 @@ p {
 }
 
 /* WATER */
-.app {
-	background-color: transparent;
-    padding-bottom: 20%;
+.svg-container {
+  overflow: hidden;
 }
 
-@keyframes spin {
-	from {
-		transform: rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg);
-	}
+div.bottom {
+  background: #009999;
+  height: calc(100% - 8vh);
 }
 
-.water {
-    z-index: 3;
-	position: absolute;
-	background-color: #5A8FA1;
-	width: 800px;
-	height: 80px;
-	transform: translateZ(0);
-	-webkit-transform: translateZ(0);
-	transition: all .5s ease !important;
-	-webkit-transition: all .5s ease !important;
-	top: 605%;
-	left: -50%;
-	border: 1px solid transparent;
-	border-radius: 40% !important;
-	animation-name: spin;
-	animation-duration: 8s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+svg {
+  display: block;
+  width: 200%;
+  position: relative;
+  left: 0px;
+  height: 8vh;
 }
 
+svg path {
+  fill: #009999;
+}
 #water-text-top {
     padding-top: 10%;
 }
