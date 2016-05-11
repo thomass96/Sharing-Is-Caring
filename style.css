@@ -242,7 +242,7 @@ p {
 
 div.bottom {
   background: #009999;
-  height: calc(100% - 8vh);
+  height: 100vh;
 }
 
 svg {
