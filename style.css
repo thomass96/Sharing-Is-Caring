@@ -393,10 +393,16 @@ svg path {
     background-color: #393F44;
     overflow: visible;
     z-index: -100;
-    min-height: 3000px;
+    min-height: 300vh;
         background-image: url(Images/CONFUSED-FLOOD-TOWN.png);
     background-attachment: fixed, fixed;
     background-position: bottom right;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+#fifth {
+    background-color: #393F44;
+    overflow: visible;
+    z-index: -100;
 }
