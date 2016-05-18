@@ -416,3 +416,9 @@ svg path {
     text-align: center;
     font-size: 7vmin;
 }
+
+.fade {
+  background-color: white;
+  opacity: 1;
+}
+}
